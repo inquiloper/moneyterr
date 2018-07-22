@@ -4,11 +4,15 @@
   "description": "A simple js money formatter",
   "main": "src/moneyterr.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/inquiloper/moneyterr.git"
+  },
+  "jest": {
+    "verbose": true,
+    "testRegex": "tests/.*\\.(js|jsx)$"
   },
   "keywords": [
     "javascript",
@@ -21,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/inquiloper/moneyterr/issues"
   },
-  "homepage": "https://github.com/inquiloper/moneyterr#readme"
+  "homepage": "https://github.com/inquiloper/moneyterr#readme",
+  "devDependencies": {
+    "jest": "^23.4.1"
+  }
 }
