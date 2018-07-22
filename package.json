@@ -1,0 +1,25 @@
+{
+  "name": "moneyterr",
+  "version": "1.0.0",
+  "description": "A simple js money formatter",
+  "main": "src/moneyterr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inquiloper/moneyterr.git"
+  },
+  "keywords": [
+    "javascript",
+    "formatter",
+    "money",
+    "formatter"
+  ],
+  "author": "inquiloper <inquiloper@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inquiloper/moneyterr/issues"
+  },
+  "homepage": "https://github.com/inquiloper/moneyterr#readme"
+}
