@@ -7,6 +7,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'moneyterr.js',
+        library: 'moneyterr',
+        libraryTarget: 'var'
     },
     module: {
         rules: [

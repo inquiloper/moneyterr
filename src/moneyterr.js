@@ -1,4 +1,4 @@
-module.exports = function moneyterr(value, options = {}){
+const moneyterr = function(value, options = {}){
 
     if(!value || isNaN(value))
         throw "Invalid argument value";
@@ -23,3 +23,5 @@ module.exports = function moneyterr(value, options = {}){
     
     return moneyOptions.symbol+ finalFormat;
 }
+
+module.exports = moneyterr;
